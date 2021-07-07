@@ -34,9 +34,8 @@ reply_markup = InlineKeyboardMarkup(
                 InlineKeyboardButton('🔥 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🔥 ', url='https://t.me/dihanofficial'),
             ]
         ]
-)
-
-await msg.reply(out, reply_markup=reply_markup)
+  )
+  await msg.reply(out, reply_markup=reply_markup)
 
 
 HASH_TEXT = "Now send your `API_HASH`.\n\nPress /cancel to Cancel Task."
