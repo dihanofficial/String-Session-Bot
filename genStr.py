@@ -21,9 +21,9 @@ Send me /help for more info
 ⚠️ Disclaimer - This bot is 100% safe. But please make sure that you properly know what a string session is & how it performs, brfore using me.😍
 
 
-Now send your `API_ID` same as `APP_ID` to Start Generating Session."""
+Now send your `API_ID` same as `APP_ID` to Start Generating Session.
 
- 
+"""
     reply_markup = InlineKeyboardMarkup(
         [
             [
