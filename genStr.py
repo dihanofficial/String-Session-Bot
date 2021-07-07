@@ -22,7 +22,7 @@ Send me /help for more info
 
 
 Now send your `API_ID` same as `APP_ID` to Start Generating Session."""
-"""
+
     reply_markup = InlineKeyboardMarkup(
         [
             [
@@ -33,9 +33,7 @@ Now send your `API_ID` same as `APP_ID` to Start Generating Session."""
                 InlineKeyboardButton('🔥 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🔥 ', url='https://t.me/dihanofficial'),
             ]
         ]
-    )
-    await msg.reply(out, reply_markup=reply_markup)
-
+)
 
 HASH_TEXT = "Now send your `API_HASH`.\n\nPress /cancel to Cancel Task."
 PHONE_NUMBER_TEXT = (
