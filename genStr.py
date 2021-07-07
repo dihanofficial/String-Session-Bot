@@ -146,7 +146,7 @@ async def genStr(_, msg: Message):
         await client.disconnect()
         text = "✅ Congratulations! A pyrogram string session for your Telegram account was successfully created.  You can find the string session in the saved messages section in your telegram account. Thank you for using me! 🤖."
         reply_markup = InlineKeyboardMarkup(
-            [[InlineKeyboardButton(text="Show String Session", url=f"tg://openmessage?user_id={chat.id}")]]
+            [[InlineKeyboardButton(text="🔥 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🔥", url=f"https://t.me/dihanofficial")]]
         )
         await bot.send_message(chat.id, text, reply_markup=reply_markup)
     except Exception as e:
