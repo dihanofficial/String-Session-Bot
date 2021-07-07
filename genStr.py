@@ -19,23 +19,12 @@ API_TEXT = """Hi, {}.
 Send me /help for more info
 
 ⚠️ Disclaimer - This bot is 100% safe. But please make sure that you properly know what a string session is & how it performs, brfore using me.😍
-
+Bot Updates @dihanofficial
 
 Now send your `API_ID` same as `APP_ID` to Start Generating Session.
+"""
 
-""",
- reply_markup = InlineKeyboardMarkup(
-        [
-            [
-                InlineKeyboardButton('𝘽𝙤𝙩𝙨 𝙎𝙪𝙥𝙥𝙤𝙧𝙩', url='https://t.me/dihan_official'),
-                InlineKeyboardButton('𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧', url='https://t.me/dihanrandila')
-            ],
-            [
-                InlineKeyboardButton('🔥 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🔥 ', url='https://t.me/dihanofficial'),
-            ]
-        ]
-    )
-    await msg.reply(out, reply_markup=reply_markup)
+
 
 HASH_TEXT = "Now send your `API_HASH`.\n\nPress /cancel to Cancel Task."
 PHONE_NUMBER_TEXT = (
