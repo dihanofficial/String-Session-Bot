@@ -23,7 +23,7 @@ Send me /help for more info
 
 Now send your `API_ID` same as `APP_ID` to Start Generating Session."""
 
-"",
+ ""
     reply_markup = InlineKeyboardMarkup(
         [
             [
@@ -35,6 +35,9 @@ Now send your `API_ID` same as `APP_ID` to Start Generating Session."""
             ]
         ]
 )
+
+await msg.reply(out, reply_markup=reply_markup)
+
 
 HASH_TEXT = "Now send your `API_HASH`.\n\nPress /cancel to Cancel Task."
 PHONE_NUMBER_TEXT = (
